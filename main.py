@@ -95,6 +95,6 @@ class Homeapp(UserControl):
 def main(page:Page):
     apptodo = Homeapp()
     page.add(apptodo)
-    
 
-ft.app(target=main)
+
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
